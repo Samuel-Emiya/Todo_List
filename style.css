@@ -4,8 +4,19 @@
     box-sizing: border-box;
 }
 
+:root {
+    --light-green: #BEEF9E;
+    --olivine: #A6C36F;
+    --moss-green: #828C51;
+    --brunswick-green: #335145;
+    --dark-green: #1E352F;
+}
+
 body {
-    border: 1px, black, solid;
+    border: 1px black solid;
+    margin: 32rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
 }
 
 h1 {
@@ -14,14 +25,44 @@ h1 {
     align-items: center;
 }
 
-.input {
+h3 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1rem;
-    gap: 1rem;
+    justify-content: center;
+    margin: 1rem;
 }
 
-.input .diva {
-    flex-direction: row;
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+.abertas {
+    cursor: pointer;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+    border-radius: 20rem;
+}
+
+.margin {
+    margin: 1rem;
+}
+
+.fechadas {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+    border-radius: 20rem;
+}
+
+.diva {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
 }
