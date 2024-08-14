@@ -13,7 +13,6 @@
 }
 
 body {
-    border: 1px black solid;
     margin: 28rem;
     margin-top: 2rem;
     border-radius: 1rem;
@@ -65,4 +64,5 @@ h3 {
     outline: none;
     background-color: #fff;
     cursor: pointer;
+    color: Red;
 }
