@@ -29,3 +29,8 @@ function alterarValor() {
         <Button>Ok</Button>
     `
 }
+
+
+function carregarLista() {
+    alert('Carregar lista')
+}
