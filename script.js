@@ -1,4 +1,5 @@
 let idCounter = 0;
+const respostaAPI = [];
 
 function registrarValor() {
     var valor = document.getElementsByClassName("BMO")[0].value;
@@ -32,5 +33,14 @@ function alterarValor() {
 
 
 function carregarLista() {
-    alert('Carregar lista')
+    let idx = -1;
+    taskList.innerHTML = '';
+
+    while(respostaAPI.length > 0 && ++idx < respostaAPI.length) {
+        taskList.innerHTML += `<li>
+        <input type="checkbox" />
+        <span class="text">${respostaAPI[idx].descricao}</span>
+
+        `
+    }
 }
